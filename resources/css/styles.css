@@ -8,7 +8,7 @@ body {
 img {
   height: 50px;
   align-content: center;
-  margin-left: 10px;
+
 }
 a {
   color: seashell;
@@ -18,18 +18,21 @@ display: flex;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
+  position: fixed;
 }
 
 nav {
-
+padding-right: 10px;
 }
 
 nav span {
   display: inline-block;
   padding: 20px 10px;
-  
+
 }
 
 .logo {
 flex-grow: 2;
+margin: 10px;
+align-items: center;
 }
