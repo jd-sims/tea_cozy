@@ -5,7 +5,14 @@ body {
   background-color: black;
   opacity: 0.9;
 }
-
+img {
+  height: 50px;
+  align-content: center;
+  margin-left: 10px;
+}
+a {
+  color: seashell;
+}
 header {
 display: flex;
   height: 69px;
@@ -13,6 +20,16 @@ display: flex;
   border-bottom: 1px solid seashell;
 }
 
-.logo {
+nav {
 
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  
+}
+
+.logo {
+flex-grow: 2;
 }
