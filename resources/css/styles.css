@@ -34,7 +34,6 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
   font-weight: bold;
-
 }
 
 h1, h4 {
@@ -49,13 +48,13 @@ align-items: center;
 /*Content*/
 
 .content {
-  display: flex;
   width: 1200px;
   margin: 0 auto ;
   padding-top: 70px;
   align-items: center;
-}
+  display: block;
 
+}
 /* Mission Statement */
 .mission {
 display: flex;
@@ -70,5 +69,11 @@ align-items: center;
 width: 100%;
 vertical-align: middle;
 text-align: center;
-height: 130px;
+}
+
+.tea-title {
+width: 1000px;
+text-align: center;
+margin: 0 auto;
+display: block;
 }
