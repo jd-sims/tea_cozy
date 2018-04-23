@@ -70,6 +70,7 @@ width: 100%;
 vertical-align: middle;
 text-align: center;
 }
+/*Tea Titles */
 
 .tea-title {
 width: 1000px;
@@ -77,3 +78,51 @@ text-align: center;
 margin: 0 auto;
 display: block;
 }
+
+/* Tea Contenders Images*/
+
+.tea-images {
+display:inline-flex;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.tea1 {
+  display: flex;
+  background-image: url(../images/img-berryblitz.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+}
+
+.tea2 {
+  display: flex;
+  background-image: url(../images/img-spiced-rum.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+}
+
+.tea3 {
+  display: flex;
+  background-image: url(../images/img-donut.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+}
+
+.tea4 {
+    display: flex;
+    background-image: url(../images/img-myrtle-ave.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+  }
+
+  .tea5 {
+      display: flex;
+      background-image: url(../images/img-bedford-bizarre.jpg);
+      background-size: cover;
+      height: 200px;
+      width: 300px;
+    }
