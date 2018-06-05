@@ -114,3 +114,28 @@ h2, h4 {
 }
 
 /*Locations*/
+
+.location-section {
+	height: 500px;
+	background-image: url("../images/img-locations-background.jpg");
+	padding-top: 70px;
+}
+
+.locals {
+	width: 300px;
+	opacity: 1.0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-basis: 280px;
+	padding: 10px;
+	margin: 5px 20px;
+	background-color: black;
+  text-align: center;
+}
+
+/* Contacts */
+.contact{
+	height: 200px;
+  text-align: center;
+}
