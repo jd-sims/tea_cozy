@@ -10,11 +10,12 @@ body {
 img {
   height: 50px;
   align-content: center;
-
 }
+
 a {
   color: seashell;
 }
+
 header {
 background-color: black;
 display: flex;
@@ -36,14 +37,12 @@ nav span {
   font-weight: bold;
 }
 
-h1, h4 {
+.logo {
+  flex-grow: 2;
+  margin: 10px;
+  align-items: center;
 }
 
-.logo {
-flex-grow: 2;
-margin: 10px;
-align-items: center;
-}
 
 /*Content*/
 
@@ -66,63 +65,52 @@ align-items: center;
 
 .mission-text {
   background-color: black;
-width: 100%;
-vertical-align: middle;
-text-align: center;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
 }
 /*Tea Titles */
 
 .tea-title {
-width: 1000px;
-text-align: center;
-margin: 0 auto;
-display: block;
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
 }
 
 /* Tea Contenders Images*/
-
-.tea-images {
-display:inline-flex;
-  width: 1000px;
-  margin: 0 auto;
+.container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
-.tea1 {
-  display: flex;
-  background-image: url(../images/img-berryblitz.jpg);
-  background-size: cover;
-  height: 200px;
-  width: 300px;
+.picture{
+	padding: 5px;
 }
 
-.tea2 {
-  display: flex;
-  background-image: url(../images/img-spiced-rum.jpg);
-  background-size: cover;
-  height: 200px;
-  width: 300px;
+.picture img{
+	height: 200px;
+	display: block;
+	margin: 10px;
 }
 
-.tea3 {
-  display: flex;
-  background-image: url(../images/img-donut.jpg);
-  background-size: cover;
-  height: 200px;
-  width: 300px;
+.picture span{
+	display: block;
+	padding: 5px;
+	font-weight: bold;
+	text-align: center;
 }
 
-.tea4 {
-    display: flex;
-    background-image: url(../images/img-myrtle-ave.jpg);
-    background-size: cover;
-    height: 200px;
-    width: 300px;
-  }
+.tom{
+width: 1000px;
+height: 700px;
+margin: auto;
+padding: 70px;
+}
 
-  .tea5 {
-      display: flex;
-      background-image: url(../images/img-bedford-bizarre.jpg);
-      background-size: cover;
-      height: 200px;
-      width: 300px;
-    }
+h2, h4 {
+   text-align: center;
+}
+
+/*Locations*/
